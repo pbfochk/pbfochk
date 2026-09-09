@@ -40,17 +40,21 @@ new ideas           ∞                     always
 
 ## 04 / Projects
 
-<details open>
-<summary><code>proxy-pool</code> — 免费代理池 · 常驻服务 + mubeng 轮换网关</summary>
+<div align="center">
+  <a href="https://github.com/pbfochk/proxy-pool">
+    <img src="./assets/projects.svg" width="100%" alt="Featured project: proxy-pool" />
+  </a>
+</div>
+
+<details>
+<summary><code>project / proxy-pool / details</code></summary>
 
 ```text
 stack       python3 · bash · mubeng · systemd
 purpose     爬取公开免费代理 → 并发校验 → HTTP API 取用
-            + 本地轮换网关 (127.0.0.1:10888) 自动换出口 IP
+            + 本地轮换网关自动更换出口 IP
 status      live
 ```
-
-[`pbfochk/proxy-pool`](https://github.com/pbfochk/proxy-pool) — crawl · validate · serve · rotate
 
 </details>
 
