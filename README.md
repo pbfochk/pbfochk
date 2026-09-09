@@ -19,13 +19,9 @@ mind:
 
 ## 01 / Operating principles
 
-> I like systems with hidden depth, tools that feel inevitable,
-> and ideas that make the familiar look strange again.
-
-- Break things down until the mechanism becomes obvious.
-- Automate repetition; keep the interesting problems human.
-- Prefer a small, sharp tool to a large, vague solution.
-- Stay curious enough to change the model.
+<div align="center">
+  <img src="./assets/principles.svg" width="100%" alt="Operating principles: hidden depth, first principles, automate, stay curious" />
+</div>
 
 ## 02 / Current signals
 

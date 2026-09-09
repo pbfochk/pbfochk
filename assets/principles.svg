@@ -1,0 +1,43 @@
+<svg width="900" height="250" viewBox="0 0 900 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .path { stroke-dasharray:10 9; animation: flow 8s linear infinite; }
+    .n1 { animation: focus 8s 0s ease-in-out infinite; }
+    .n2 { animation: focus 8s 2s ease-in-out infinite; }
+    .n3 { animation: focus 8s 4s ease-in-out infinite; }
+    .n4 { animation: focus 8s 6s ease-in-out infinite; }
+    .orbit { transform-origin:450px 125px; animation: orbit 18s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset:-152 } }
+    @keyframes focus { 0%,18%,100% { opacity:.36 } 7%,11% { opacity:1 } }
+    @keyframes orbit { to { transform:rotate(360deg) } }
+  </style>
+  <rect x="1" y="1" width="898" height="248" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
+  <path class="path" d="M116 125H784" stroke="#238636" stroke-width="1.5"/>
+  <ellipse class="orbit" cx="450" cy="125" rx="356" ry="91" stroke="#21262D" stroke-width="1" stroke-dasharray="3 12"/>
+
+  <g class="n1">
+    <circle cx="116" cy="125" r="28" fill="#161B22" stroke="#7EE787"/>
+    <circle cx="116" cy="125" r="5" fill="#7EE787"/>
+    <text x="116" y="78" text-anchor="middle" class="mono" font-size="12" fill="#6E7681">LOOK BENEATH</text>
+    <text x="116" y="183" text-anchor="middle" class="mono" font-size="15" font-weight="700" fill="#F0F6FC">HIDDEN DEPTH</text>
+  </g>
+  <g class="n2">
+    <circle cx="338" cy="125" r="28" fill="#161B22" stroke="#58A6FF"/>
+    <path d="M328 125H348M338 115V135" stroke="#58A6FF" stroke-width="2"/>
+    <text x="338" y="78" text-anchor="middle" class="mono" font-size="12" fill="#6E7681">REDUCE</text>
+    <text x="338" y="183" text-anchor="middle" class="mono" font-size="15" font-weight="700" fill="#F0F6FC">FIRST PRINCIPLES</text>
+  </g>
+  <g class="n3">
+    <circle cx="562" cy="125" r="28" fill="#161B22" stroke="#D2A8FF"/>
+    <path d="M550 131L558 123L564 129L576 117" stroke="#D2A8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="562" y="78" text-anchor="middle" class="mono" font-size="12" fill="#6E7681">REMOVE REPEAT</text>
+    <text x="562" y="183" text-anchor="middle" class="mono" font-size="15" font-weight="700" fill="#F0F6FC">AUTOMATE</text>
+  </g>
+  <g class="n4">
+    <circle cx="784" cy="125" r="28" fill="#161B22" stroke="#FFA657"/>
+    <path d="M772 128C778 116 790 116 796 128C790 138 778 138 772 128Z" stroke="#FFA657"/><circle cx="784" cy="128" r="3" fill="#FFA657"/>
+    <text x="784" y="78" text-anchor="middle" class="mono" font-size="12" fill="#6E7681">REVISE THE MODEL</text>
+    <text x="784" y="183" text-anchor="middle" class="mono" font-size="15" font-weight="700" fill="#F0F6FC">STAY CURIOUS</text>
+  </g>
+  <text x="450" y="226" text-anchor="middle" class="mono" font-size="11" letter-spacing="2" fill="#484F58">OBSERVE  /  DECOMPOSE  /  BUILD  /  QUESTION</text>
+</svg>
