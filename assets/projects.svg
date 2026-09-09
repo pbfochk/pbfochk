@@ -16,7 +16,7 @@
     @keyframes rise { 0%,100% { transform:translateY(3px); opacity:.5 } 50% { transform:translateY(-3px); opacity:1 } }
   </style>
   <rect x="1" y="1" width="898" height="308" rx="14" fill="#0D1117" stroke="url(#edge)" stroke-width="2"/>
-  <text x="30" y="39" class="mono" font-size="12" letter-spacing="2" fill="#6E7681">精选项目 / 001</text>
+  <text x="30" y="39" class="mono" font-size="12" letter-spacing="2" fill="#6E7681">FEATURED PROJECT / 001</text>
   <circle cx="782" cy="87" r="31" stroke="#21262D"/><circle cx="782" cy="87" r="18" stroke="#21262D"/><path class="radar" d="M782 87L808 70A31 31 0 0 1 810 101Z" fill="#39D353" opacity=".25"/>
   <circle cx="782" cy="87" r="3" fill="#7EE787" class="node1"/>
   <text x="30" y="88" class="mono" font-size="30" font-weight="700" fill="#F0F6FC">proxy-pool</text>

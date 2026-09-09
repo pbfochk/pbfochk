@@ -27,7 +27,7 @@
   <rect x="1" y="1" width="898" height="308" rx="14" fill="#0D1117" stroke="url(#border)" stroke-width="2"/>
   <circle cx="704" cy="153" r="132" fill="url(#halo)" opacity=".5"/>
 
-  <text x="30" y="39" class="mono" font-size="12" letter-spacing="2" fill="#6E7681">知识档案 / 002</text>
+  <text x="30" y="39" class="mono" font-size="12" letter-spacing="2" fill="#6E7681">KNOWLEDGE ARCHIVE / 002</text>
   <text x="30" y="88" class="mono" font-size="29" font-weight="700" fill="#F0F6FC">security-field-notes</text>
   <rect x="30" y="105" width="82" height="24" rx="12" fill="#A371F7" fill-opacity=".14" stroke="#A371F7"/>
   <text x="71" y="121" text-anchor="middle" class="mono" font-size="11" fill="#D2A8FF">MARKDOWN</text>
