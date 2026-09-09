@@ -5,7 +5,7 @@
 
 <div align="center">
 
-`INTP` &nbsp;·&nbsp; `security` &nbsp;·&nbsp; `automation` &nbsp;·&nbsp; `beautiful systems`
+`security` &nbsp;·&nbsp; `automation` &nbsp;·&nbsp; `systems` &nbsp;·&nbsp; `ideas`
 
 </div>
 
@@ -13,7 +13,7 @@
 mind:
   mode:        "question → model → experiment → rebuild"
   bias:        "first principles over familiar answers"
-  interests:   [security, automation, strange ideas, elegant tools]
+  interests:   [security, automation, new ideas, elegant tools]
   status:      "quietly turning curiosity into code"
 ```
 
@@ -48,13 +48,18 @@ new ideas           ∞                     always
   <img src="./assets/telemetry.svg" width="100%" alt="pbfochk telemetry" />
 </div>
 
+<div align="center">
+  <img src="./assets/moonlight.svg" width="100%" alt="今晚月色很美，风也温柔" />
+</div>
+
 <details>
-<summary><code>open /personality/intp.txt</code></summary>
+<summary><code>menu / cognitive-pattern</code></summary>
 
 ```text
-Not antisocial — selectively social.
-Not indecisive — still compiling.
-Not lost — exploring a branch nobody documented.
+type      INTP
+input     questions, patterns, contradictions
+process   observe → abstract → test → refine
+output    a quieter, clearer model
 ```
 
 </details>
