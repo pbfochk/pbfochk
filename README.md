@@ -58,6 +58,26 @@ status      live
 
 </details>
 
+<br>
+
+<div align="center">
+  <a href="https://github.com/pbfochk/security-field-notes">
+    <img src="./assets/security-field-notes.svg" width="100%" alt="项目：安全现场笔记" />
+  </a>
+</div>
+
+<details>
+<summary><code>project / security-field-notes / details</code></summary>
+
+```text
+content     26 篇中文技术文章 · 391 个原始文件
+topics      应急响应 · 漏洞研究 · 域与内网 · 攻防技术
+purpose     将零散实践沉淀为可检索、可复用的现场笔记
+status      continuously curated
+```
+
+</details>
+
 ## 05 / Telemetry
 
 <div align="center">

@@ -1,0 +1,61 @@
+<svg width="900" height="310" viewBox="0 0 900 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="border" x1="40" y1="20" x2="850" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A371F7"/><stop offset=".52" stop-color="#1F6FEB"/><stop offset="1" stop-color="#39D353"/>
+    </linearGradient>
+    <radialGradient id="halo"><stop stop-color="#58A6FF" stop-opacity=".28"/><stop offset="1" stop-color="#58A6FF" stop-opacity="0"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'PingFang SC', 'Noto Sans SC', monospace; }
+    .orbit { transform-origin:704px 153px; animation:spin 16s linear infinite; }
+    .orbit-reverse { transform-origin:704px 153px; animation:spin-reverse 11s linear infinite; }
+    .scan { animation:scan 4.5s ease-in-out infinite; }
+    .blink { animation:blink 3s ease-in-out infinite; }
+    .pulse { transform-box:fill-box; transform-origin:center; animation:pulse 3s ease-in-out infinite; }
+    .flow { stroke-dasharray:5 9; animation:flow 3s linear infinite; }
+    .enter { animation:enter 5s ease-in-out infinite; }
+    @keyframes spin { to { transform:rotate(360deg) } }
+    @keyframes spin-reverse { to { transform:rotate(-360deg) } }
+    @keyframes scan { 0%,100% { transform:translateY(-48px); opacity:.15 } 50% { transform:translateY(48px); opacity:.8 } }
+    @keyframes blink { 0%,100% { opacity:.3 } 50% { opacity:1 } }
+    @keyframes pulse { 0%,100% { transform:scale(.85); opacity:.45 } 50% { transform:scale(1.15); opacity:1; filter:url(#glow) } }
+    @keyframes flow { to { stroke-dashoffset:-56 } }
+    @keyframes enter { 0%,100% { opacity:.55; transform:translateX(0) } 50% { opacity:1; transform:translateX(5px) } }
+  </style>
+
+  <rect x="1" y="1" width="898" height="308" rx="14" fill="#0D1117" stroke="url(#border)" stroke-width="2"/>
+  <circle cx="704" cy="153" r="132" fill="url(#halo)" opacity=".5"/>
+
+  <text x="30" y="39" class="mono" font-size="12" letter-spacing="2" fill="#6E7681">知识档案 / 002</text>
+  <text x="30" y="88" class="mono" font-size="29" font-weight="700" fill="#F0F6FC">security-field-notes</text>
+  <rect x="30" y="105" width="82" height="24" rx="12" fill="#A371F7" fill-opacity=".14" stroke="#A371F7"/>
+  <text x="71" y="121" text-anchor="middle" class="mono" font-size="11" fill="#D2A8FF">MARKDOWN</text>
+  <rect x="121" y="105" width="68" height="24" rx="12" fill="#238636" fill-opacity=".17" stroke="#2EA043"/>
+  <text x="155" y="121" text-anchor="middle" class="mono" font-size="11" fill="#7EE787">26 篇</text>
+  <text x="30" y="162" class="mono" font-size="14" fill="#8B949E">网络安全研究、漏洞复现与应急响应文章归档。</text>
+  <text x="30" y="187" class="mono" font-size="14" fill="#8B949E">从现象进入机制，把一次经验变成可重用的坐标。</text>
+
+  <path d="M60 248H466" class="flow" stroke="#30363D"/>
+  <g class="blink">
+    <circle cx="64" cy="248" r="4" fill="#A371F7"/><circle cx="190" cy="248" r="4" fill="#58A6FF"/>
+    <circle cx="324" cy="248" r="4" fill="#39D353"/><circle cx="460" cy="248" r="4" fill="#FFA657"/>
+  </g>
+  <text x="64" y="276" text-anchor="middle" class="mono" font-size="11" fill="#8B949E">应急响应</text>
+  <text x="190" y="276" text-anchor="middle" class="mono" font-size="11" fill="#8B949E">漏洞研究</text>
+  <text x="324" y="276" text-anchor="middle" class="mono" font-size="11" fill="#8B949E">域与内网</text>
+  <text x="460" y="276" text-anchor="middle" class="mono" font-size="11" fill="#8B949E">攻防技术</text>
+
+  <g class="orbit" stroke="#30363D">
+    <ellipse cx="704" cy="153" rx="126" ry="58"/><circle cx="578" cy="153" r="4" fill="#A371F7" stroke="none" class="pulse"/>
+  </g>
+  <g class="orbit-reverse" stroke="#21262D">
+    <ellipse cx="704" cy="153" rx="82" ry="112"/><circle cx="704" cy="41" r="4" fill="#58A6FF" stroke="none" class="pulse"/>
+  </g>
+  <rect x="659" y="98" width="90" height="110" rx="7" fill="#161B22" stroke="#58A6FF"/>
+  <rect x="671" y="84" width="90" height="110" rx="7" fill="#161B22" stroke="#A371F7"/>
+  <rect x="683" y="70" width="90" height="110" rx="7" fill="#0D1117" stroke="#8B949E"/>
+  <path d="M700 101H755M700 118H746M700 135H758M700 152H735" stroke="#484F58" stroke-width="3" stroke-linecap="round"/>
+  <path class="scan" d="M692 125H764" stroke="#39D353" stroke-width="2" filter="url(#glow)"/>
+  <text x="842" y="280" text-anchor="end" class="mono enter" font-size="12" fill="#D2A8FF">进入档案 ↗</text>
+</svg>
