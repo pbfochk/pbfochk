@@ -45,11 +45,7 @@ new ideas           ∞                     always
 ## 04 / Telemetry
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=pbfochk&show_icons=true&hide_border=true&bg_color=00000000&title_color=7ee787&text_color=8b949e&icon_color=39d353&ring_color=39d353&rank_icon=percentile" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=pbfochk&show_icons=true&hide_border=true&bg_color=00000000&title_color=0969da&text_color=57606a&icon_color=1a7f37&ring_color=1a7f37&rank_icon=percentile" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=pbfochk&show_icons=true&hide_border=true&theme=transparent&rank_icon=percentile" alt="GitHub statistics" />
-  </picture>
+  <img src="./assets/telemetry.svg" width="100%" alt="pbfochk telemetry" />
 </div>
 
 <details>
