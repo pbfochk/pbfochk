@@ -1,0 +1,53 @@
+<svg width="900" height="310" viewBox="0 0 900 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rf-edge" x1="20" y1="20" x2="870" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0883E"/><stop offset=".5" stop-color="#A371F7"/><stop offset="1" stop-color="#58A6FF"/>
+    </linearGradient>
+    <filter id="rf-glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'PingFang SC', 'Noto Sans SC', monospace; }
+    .route { stroke-dasharray:7 10; animation:route 3.4s linear infinite; }
+    .route2 { stroke-dasharray:4 12; animation:route 4.6s linear reverse infinite; }
+    .node { transform-box:fill-box; transform-origin:center; animation:node 3s ease-in-out infinite; }
+    .node2 { animation-delay:1s; }.node3 { animation-delay:2s; }
+    .ring { transform-origin:704px 155px; animation:ring 9s linear infinite; }
+    .signal { animation:signal 3.2s ease-in-out infinite; }
+    .enter { animation:enter 5s ease-in-out infinite; }
+    @keyframes route { to { stroke-dashoffset:-68 } }
+    @keyframes node { 0%,100% { opacity:.5; transform:scale(.9) } 50% { opacity:1; transform:scale(1.12); filter:url(#rf-glow) } }
+    @keyframes ring { to { transform:rotate(360deg) } }
+    @keyframes signal { 0%,100% { opacity:.22 } 50% { opacity:.9 } }
+    @keyframes enter { 0%,100% { opacity:.55; transform:translateX(0) } 50% { opacity:1; transform:translateX(5px) } }
+  </style>
+
+  <rect x="1" y="1" width="898" height="308" rx="14" fill="#0D1117" stroke="url(#rf-edge)" stroke-width="2"/>
+  <text x="30" y="39" class="mono" font-size="12" letter-spacing="2" fill="#6E7681">NETWORK SYSTEM / 003</text>
+  <text x="30" y="88" class="mono" font-size="30" font-weight="700" fill="#F0F6FC">RelayForge</text>
+  <rect x="30" y="105" width="48" height="24" rx="12" fill="#F0883E" fill-opacity=".14" stroke="#F0883E"/>
+  <text x="54" y="121" text-anchor="middle" class="mono" font-size="11" fill="#FFA657">GO</text>
+  <rect x="87" y="105" width="70" height="24" rx="12" fill="#1F6FEB" fill-opacity=".16" stroke="#388BFD"/>
+  <text x="122" y="121" text-anchor="middle" class="mono" font-size="11" fill="#79C0FF">DOCKER</text>
+  <rect x="166" y="105" width="88" height="24" rx="12" fill="#A371F7" fill-opacity=".14" stroke="#A371F7"/>
+  <text x="210" y="121" text-anchor="middle" class="mono" font-size="11" fill="#D2A8FF">MULTI-USER</text>
+  <text x="30" y="162" class="mono" font-size="14" fill="#8B949E">可审计、可重建的内网穿透与反向代理工具包。</text>
+  <text x="30" y="187" class="mono" font-size="14" fill="#8B949E">让连接有边界，让每条通道都能被理解。</text>
+
+  <path d="M62 250C150 212 222 286 310 246S462 217 535 250" class="route" stroke="#A371F7" stroke-width="1.5"/>
+  <g class="node"><circle cx="62" cy="250" r="14" fill="#161B22" stroke="#F0883E"/><circle cx="62" cy="250" r="3" fill="#FFA657"/></g>
+  <g class="node node2"><circle cx="310" cy="246" r="14" fill="#161B22" stroke="#A371F7"/><circle cx="310" cy="246" r="3" fill="#D2A8FF"/></g>
+  <g class="node node3"><circle cx="535" cy="250" r="14" fill="#161B22" stroke="#58A6FF"/><circle cx="535" cy="250" r="3" fill="#79C0FF"/></g>
+  <text x="62" y="281" text-anchor="middle" class="mono" font-size="10" fill="#6E7681">CLIENT</text>
+  <text x="310" y="281" text-anchor="middle" class="mono" font-size="10" fill="#6E7681">RELAY</text>
+  <text x="535" y="281" text-anchor="middle" class="mono" font-size="10" fill="#6E7681">SERVICE</text>
+
+  <circle cx="704" cy="155" r="82" stroke="#21262D"/>
+  <g class="ring"><path d="M704 67A88 88 0 0 1 792 155" stroke="#58A6FF" stroke-width="2"/><circle cx="704" cy="67" r="4" fill="#79C0FF"/></g>
+  <path d="M704 94V113M704 197V216M643 155H662M746 155H765" class="signal" stroke="#484F58"/>
+  <path d="M673 150V134C673 117 687 104 704 104C721 104 735 117 735 134V150" stroke="#D2A8FF" stroke-width="3"/>
+  <rect x="665" y="146" width="78" height="62" rx="10" fill="#161B22" stroke="#A371F7"/>
+  <circle cx="704" cy="173" r="7" fill="#A371F7" class="node"/>
+  <path d="M704 179V190" stroke="#D2A8FF" stroke-width="3" stroke-linecap="round"/>
+  <path d="M578 155H620" class="route2" stroke="#F0883E" stroke-width="2"/>
+  <text x="842" y="280" text-anchor="end" class="mono enter" font-size="12" fill="#FFA657">打开通道 ↗</text>
+</svg>
