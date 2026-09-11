@@ -30,8 +30,8 @@
   <text x="122" y="121" text-anchor="middle" class="mono" font-size="11" fill="#79C0FF">DOCKER</text>
   <rect x="166" y="105" width="88" height="24" rx="12" fill="#A371F7" fill-opacity=".14" stroke="#A371F7"/>
   <text x="210" y="121" text-anchor="middle" class="mono" font-size="11" fill="#D2A8FF">MULTI-USER</text>
-  <text x="30" y="162" class="mono" font-size="14" fill="#8B949E">可审计、可重建的内网穿透与反向代理工具包。</text>
-  <text x="30" y="187" class="mono" font-size="14" fill="#8B949E">让连接有边界，让每条通道都能被理解。</text>
+  <text x="30" y="162" class="mono" font-size="14" fill="#8B949E">基于 Go 与 Docker 的内网穿透和反向代理工具。</text>
+  <text x="30" y="187" class="mono" font-size="14" fill="#8B949E">支持多用户访问、登录验证与源码构建部署。</text>
 
   <path d="M62 250C150 212 222 286 310 246S462 217 535 250" class="route" stroke="#A371F7" stroke-width="1.5"/>
   <g class="node"><circle cx="62" cy="250" r="14" fill="#161B22" stroke="#F0883E"/><circle cx="62" cy="250" r="3" fill="#FFA657"/></g>
